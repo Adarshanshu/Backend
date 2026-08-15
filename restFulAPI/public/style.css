@@ -1,0 +1,52 @@
+body{
+    background-color:#424242;
+}
+.heading{
+    color:brown;
+    text-align:center;
+    text-decoration:solid;
+}
+.post {
+    height:auto;
+    width:auto;
+    border: 2px solid black;
+    border-radius:20px;
+    box-shadow:7px 7px 12px grey;
+    margin: 15px;
+    padding: 5px;
+    background-color: burlywood;
+    transition:transform 0.3s ease;
+}
+.post:hover{
+    transform:scale(1.02);
+}
+
+h2{
+    color:rgb(41, 8, 41)
+}
+h3{
+    color:blueviolet
+}
+button{
+    background-color:green;
+    border-radius:10px;
+    box-shadow:5px 5px 10px grey;
+}
+a{
+    color:white;
+    text-decoration:none
+}
+.delete{
+    color:white;
+    background-color:red;
+    margin-top:5px
+}
+.edit{
+    background-color:yellowgreen;
+}
+.new{
+    margin:10px;
+    margin-left:auto;
+    padding:10px;
+    background-color:chocolate
+}
