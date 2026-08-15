@@ -5,6 +5,9 @@ body{
     color:brown;
     text-align:center;
     text-decoration:solid;
+    background-color:rgb(41, 103, 172);
+    border-radius:10px;
+    box-shadow:5px 5px 10px grey;
 }
 .post {
     height:auto;
@@ -49,4 +52,9 @@ a{
     margin-left:auto;
     padding:10px;
     background-color:chocolate
+}
+.home{
+    text-align:center;
+    margin-left:700px;
+    padding:11px;
 }

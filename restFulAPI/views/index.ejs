@@ -8,6 +8,8 @@
 </head>
 <body>
     <h1 class="heading">Quora Posts</h1>
+   <button class="home"> <a href="/">Home</a></button>
+   <button class="new"> <a href="http://localhost:8080/post/new">Create New Post</a></button>
     <% for(let post of posts) { %>
     <div class="post">
         <h2>@<%= post.username  %></h2>
